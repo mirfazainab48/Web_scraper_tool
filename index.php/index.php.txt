@@ -1,0 +1,38 @@
+<?php
+
+// Main entry point for the web scraper tool
+
+// Include necessary files
+include('config/config.php');
+include('config/openai_config.php');
+include('scraper/scraper.php');
+include('scraper/utils.php');
+include('openai/openai_api.php');
+include('csv/csv_generator.php');
+
+// Example workflow
+
+// Step 1: Input domain (this can be dynamic, but for now, let's hardcode it)
+$domain = 'https://example.com';
+
+// Step 2: Scrape the website
+$html_content = scrape_website($domain);
+
+// Step 3: Extract relevant data from the HTML content
+$extracted_data = extract_data_from_html($html_content);
+
+// Step 4: Generate summary using OpenAI API
+$summary = call_openai_api($extracted_data);
+
+// Step 5: Prepare data for CSV
+$data = [
+    [$domain, $summary, implode('; ', $extracted_data), date('Y-m-d H:i:s')]
+];
+
+// Step 6: Generate CSV
+$csv_filename = 'website_summary_' . date('Y-m-d_H-i-s') . '.csv';
+generate_csv($data, $csv_filename);
+
+echo "Process completed. CSV file created: " . $csv_filename;
+
+?>

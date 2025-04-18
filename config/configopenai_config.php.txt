@@ -1,0 +1,14 @@
+<?php
+
+// OpenAI API configurations
+
+// API URL for OpenAI's text generation endpoint
+$openai_url = 'https://api.openai.com/v1/completions';
+
+// Set your API key here
+$openai_api_key = 'YOUR_OPENAI_API_KEY';
+
+// OpenAI model to use, for example GPT-3 or GPT-4
+$openai_model = 'text-davinci-003';  // Replace with the correct model
+
+?>

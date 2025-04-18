@@ -1,0 +1,11 @@
+<?php
+
+// Place your config variables here
+
+// OpenAI API key
+$openai_api_key = 'YOUR_OPENAI_API_KEY';
+
+// The API endpoint for OpenAI
+$openai_url = 'https://api.openai.com/v1/completions';
+
+?>
