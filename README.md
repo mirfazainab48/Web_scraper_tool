@@ -57,6 +57,7 @@ To run the project, you’ll need the following:
 ## 🚀 setup and installation instructions
 
 **Step-by-Step Guide:**
+
 1. **Clone the repository:**
 
    git clone *https://github.com/your-username/web-scraper-automation-suite*
@@ -80,7 +81,7 @@ If you're using PHP with cURL and OpenAI API integration, make sure all necessar
 ## 🔧 Troubleshooting Tips
 **API Authentication Issues:**
 
-* Make sure your OpenAI API key is correctly set in       *config/openai_config.php.
+* Make sure your OpenAI API key is correctly set in *config/openai_config.php*
 
 * Ensure the credentials file is in the correct location.
 
@@ -90,7 +91,7 @@ If you're using PHP with cURL and OpenAI API integration, make sure all necessar
 
     *  Ensure that the Google Sheets API is set up and the sheet is shared with your API credentials.
 
-*** cURL Errors:**
+**cURL Errors:**
 
    *   If you encounter issues with the scraping, make sure cURL is enabled in your PHP setup.
 
@@ -99,27 +100,30 @@ If you're using PHP with cURL and OpenAI API integration, make sure all necessar
 ---
 
 ## 🤝 Contribution Guidelines
+
 We welcome contributions to the Web Scraper and Automation Suite! Here’s how you can contribute:
 
-(1.), Fork the repository:
+1. Fork the repository:
 Click the "Fork" button on the GitHub page to create a personal copy of the project.
 
-(2.), Create a new branch:
+2. Create a new branch:
 Work on a new feature or fix in a separate branch.
 
--git checkout -b feature/your-feature-
+*git checkout -b feature/your-feature*
 
-(3.), Commit your changes:
+3. Commit your changes:
+   
 Write clear and concise commit messages.
 
--git commit -am "Add new feature"-
+*git commit -am "Add new feature"*
 
-(4.), Push to your fork:
+4. Push to your fork:
 Push your changes to your fork on GitHub.
 
--git push origin feature/your-feature-
+*git push origin feature/your-feature*
 
-(5.), Submit a pull request:
+5. Submit a pull request:
+   
 Go to the "Pull Requests" section and submit your changes for review.
 
 ## 🏷️ Tags
