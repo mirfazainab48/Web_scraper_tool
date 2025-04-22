@@ -9,12 +9,11 @@
 2. [Features](#features)
    - [To-Do Features](#to-do-features)
 3. [Requirements](#requirements)
-4. [Usage Examples](#usage-examples)
-5. [Setup and Installation Instructions](#setup-and-installation-instructions)
-6. [Troubleshooting Tips](#troubleshooting-tips)
-7. [Contribution Guidelines](#contribution-guidelines)
-8. [Tags](#tags)
-9. [Example code](#example-code)
+4. [Setup and Installation Instructions](#setup-and-installation-instructions)
+5. [Troubleshooting Tips](#troubleshooting-tips)
+6. [Contribution Guidelines](#contribution-guidelines)
+7. [Tags](#tags)
+8. [Usage Examples](#usage-examples)
     
     
 
@@ -59,7 +58,7 @@ To run the project, you’ll need the following:
 
 **Step-by-Step Guide:**
 (1.), **Clone the repository:**
--git clone https://github.com/your-username/web-scraper-automation-suite-
+git clone https://github.com/your-username/web-scraper-automation-suite
 Install required dependencies: If you're using PHP with cURL and OpenAI API integration, make sure all necessary PHP extensions are installed. You might also need composer for dependency management.
 
 (2.), **Set up your API keys:**
@@ -71,54 +70,56 @@ Add your API key in config/openai_config.php.
 (3.), **Run the script:**
 -php index.php-
 
-🔧 Troubleshooting Tips
-API Authentication Issues:
+---
 
-Make sure your OpenAI API key is correctly set in config/openai_config.php.
+## 🔧 Troubleshooting Tips
+*** API Authentication Issues:**
 
-Ensure the credentials file is in the correct location.
+     * Make sure your OpenAI API key is correctly set in config/openai_config.php.
 
-Google Sheets Update Error (if applicable):
+     * Ensure the credentials file is in the correct location.
 
-Verify that the sheet name and structure are correct.
+* Google Sheets Update Error (if applicable):
 
-Ensure that the Google Sheets API is set up and the sheet is shared with your API credentials.
+   *   Verify that the sheet name and structure are correct.
 
-cURL Errors:
+    *  Ensure that the Google Sheets API is set up and the sheet is shared with your API credentials.
 
-If you encounter issues with the scraping, make sure cURL is enabled in your PHP setup.
+*** cURL Errors:**
 
-Check for any connectivity issues with the website you are trying to scrape.
+   *   If you encounter issues with the scraping, make sure cURL is enabled in your PHP setup.
 
-🤝 Contribution Guidelines
+   *   Check for any connectivity issues with the website you are trying to scrape.
+
+---
+
+## 🤝 Contribution Guidelines
 We welcome contributions to the Web Scraper and Automation Suite! Here’s how you can contribute:
 
-Fork the repository:
+(1.), Fork the repository:
 Click the "Fork" button on the GitHub page to create a personal copy of the project.
 
-Create a new branch:
+(2.), Create a new branch:
 Work on a new feature or fix in a separate branch.
 
-bash
-Copy
 -git checkout -b feature/your-feature-
-Commit your changes:
+
+(3.), Commit your changes:
 Write clear and concise commit messages.
 
-bash
-Copy
 -git commit -am "Add new feature"-
-Push to your fork:
+
+(4.), Push to your fork:
 Push your changes to your fork on GitHub.
 
-bash
-Copy
 -git push origin feature/your-feature-
-Submit a pull request:
+
+(5.), Submit a pull request:
 Go to the "Pull Requests" section and submit your changes for review.
 
 ## 🏷️ Tags
-**Web Scraping
+
+Web Scraping
 
 PHP
 
@@ -136,7 +137,7 @@ E-commerce Automation
 
 Scraping Tool
 
-Productivity Tools**
+Productivity Tools
 
 
 ---
