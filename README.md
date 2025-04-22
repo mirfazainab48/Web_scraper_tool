@@ -60,7 +60,7 @@ To run the project, you’ll need the following:
 
 1. **Clone the repository:**
 
-   git clone *-https://github.com/your-username/web-scraper-automation-suite-*
+   git clone *https://github.com/your-username/web-scraper-automation-suite*
 
 2. **Install required dependencies:**
 
@@ -109,18 +109,18 @@ Click the "Fork" button on the GitHub page to create a personal copy of the proj
 2. Create a new branch:
 Work on a new feature or fix in a separate branch.
 
-*-git checkout -b feature/your-feature-*
+*git checkout -b feature/your-feature*
 
 3. Commit your changes:
    
 Write clear and concise commit messages.
 
-*-git commit -am "Add new feature"-*
+*git commit -am "Add new feature"*
 
 4. Push to your fork:
 Push your changes to your fork on GitHub.
 
-*-git push origin feature/your-feature-*
+*git push origin feature/your-feature*
 
 5. Submit a pull request:
    
