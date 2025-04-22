@@ -81,9 +81,12 @@ $summary = call_openai_api($extracted_data);
 $data = [
     [$domain, $summary, implode('; ', $extracted_data), date('Y-m-d H:i:s')]
 
-----
 
-**## 🚀 Setup and Installation Instructions**
+***
+
+
+
+## 🚀 setup and installation instructions
 
 **Step-by-Step Guide:**
 (1.), **Clone the repository:**
