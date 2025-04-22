@@ -58,7 +58,7 @@ Here’s a simple example of how to use the web scraper module with OpenAI integ
 
 ```php
 // Include necessary files
-include('config/config.php');
+-include('config/config.php');-
 include('config/openai_config.php');
 include('scraper/scraper.php');
 include('scraper/utils.php');
