@@ -101,24 +101,24 @@ Work on a new feature or fix in a separate branch.
 
 bash
 Copy
-git checkout -b feature/your-feature
+-git checkout -b feature/your-feature-
 Commit your changes:
 Write clear and concise commit messages.
 
 bash
 Copy
-git commit -am "Add new feature"
+-git commit -am "Add new feature"-
 Push to your fork:
 Push your changes to your fork on GitHub.
 
 bash
 Copy
-git push origin feature/your-feature
+-git push origin feature/your-feature-
 Submit a pull request:
 Go to the "Pull Requests" section and submit your changes for review.
 
-🏷️ Tags
-Web Scraping
+## 🏷️ Tags
+**Web Scraping
 
 PHP
 
@@ -136,5 +136,43 @@ E-commerce Automation
 
 Scraping Tool
 
-Productivity Tools
+Productivity Tools**
+
+
+---
+## 💡 Usage Examples
+
+Here’s a simple example of how to use the **Web Scraper and Automation Suite** with OpenAI integration:
+
+```php
+// Include necessary files
+include('config/config.php');
+include('config/openai_config.php');
+include('scraper/scraper.php');
+include('scraper/utils.php');
+include('openai/openai_api.php');
+include('csv/csv_generator.php');
+
+// Set the domain URL to scrape
+$domain = 'https://example.com';
+
+// Scrape the website
+$html_content = scrape_website($domain);
+
+// Extract data from the HTML
+$extracted_data = extract_data_from_html($html_content);
+
+// Generate a summary using OpenAI API
+$summary = call_openai_api($extracted_data);
+
+// Prepare data for CSV export
+$data = [
+    [$domain, $summary, implode('; ', $extracted_data), date('Y-m-d H:i:s')]
+];
+
+// Generate the CSV file
+$csv_filename = 'website_summary_' . date('Y-m-d_H-i-s') . '.csv';
+generate_csv($data, $csv_filename);
+
+[echo "Process completed. CSV file created: " . $csv_filename;
 
