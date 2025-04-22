@@ -83,8 +83,8 @@ $data = [
 
 ----
 
+**## 🚀 Setup and Installation Instructions**
 
-## 🚀 Setup and Installation Instructions
 **Step-by-Step Guide:**
 (1.), **Clone the repository:**
 -git clone https://github.com/your-username/web-scraper-automation-suite-
