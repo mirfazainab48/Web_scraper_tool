@@ -58,9 +58,10 @@ To run the project, you’ll need the following:
 
 **Step-by-Step Guide:**
 (1.), **Clone the repository:**
-_git clone https://github.com/your-username/web-scraper-automation-suite_
+      * git clone https://github.com/your-username/web-scraper-automation-suite
 
 (2.), **Install required dependencies:**
+
 If you're using PHP with cURL and OpenAI API integration, make sure all necessary PHP extensions are installed. You might also need composer for dependency management.
 
 (3.), **Set up your API keys:**
@@ -70,16 +71,16 @@ If you're using PHP with cURL and OpenAI API integration, make sure all necessar
 * Add your API key in config/openai_config.php.
 
 (4.), **Run the script:**
--php index.php-
+      * php index.php
 
 ---
 
 ## 🔧 Troubleshooting Tips
-*** API Authentication Issues:**
+**API Authentication Issues:**
 
-     * Make sure your OpenAI API key is correctly set in config/openai_config.php.
+* Make sure your OpenAI API key is correctly set in       * config/openai_config.php.
 
-     * Ensure the credentials file is in the correct location.
+* Ensure the credentials file is in the correct location.
 
 * Google Sheets Update Error (if applicable):
 
