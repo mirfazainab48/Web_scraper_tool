@@ -14,7 +14,7 @@
 6. [Troubleshooting Tips](#troubleshooting-tips)
 7. [Contribution Guidelines](#contribution-guidelines)
 8. [Tags](#tags)
-9. Example code(#example code)
+9. [Example code](#example-code)
     
 
 ---
@@ -86,3 +86,5 @@ $csv_filename = 'website_summary_' . date('Y-m-d_H-i-s') . '.csv';
 generate_csv($data, $csv_filename);
 
 echo "Process completed. CSV file created: " . $csv_filename;
+
+### example code 
