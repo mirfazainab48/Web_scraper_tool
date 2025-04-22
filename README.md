@@ -57,21 +57,23 @@ To run the project, you’ll need the following:
 ## 🚀 setup and installation instructions
 
 **Step-by-Step Guide:**
-(1.) **Clone the repository:**
-      * git clone https://github.com/your-username/web-scraper-automation-suite
+1. **Clone the repository:**
 
-(2.) **Install required dependencies:**
+   git clone *https://github.com/your-username/web-scraper-automation-suite*
+
+2 **Install required dependencies:**
 
 If you're using PHP with cURL and OpenAI API integration, make sure all necessary PHP extensions are installed. You might also need composer for dependency management.
 
-(3.) **Set up your API keys:**
+3 **Set up your API keys:**
 
 * For OpenAI, obtain your API key from OpenAI's website.
 
-* Add your API key in config/openai_config.php.
-
-(4.) **Run the script:**
-      * php index.php
+* Add your API key in *config/openai_config.php*
+  
+4 **Run the script:**
+  
+      *php index.php*
 
 ---
 
