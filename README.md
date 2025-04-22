@@ -58,7 +58,7 @@ Here’s a simple example of how to use the web scraper module with OpenAI integ
 
 ```php
 // Include necessary files
--include('config/config.php');-
+include('config/config.php');
 include('config/openai_config.php');
 include('scraper/scraper.php');
 include('scraper/utils.php');
@@ -80,6 +80,91 @@ $summary = call_openai_api($extracted_data);
 // Prepare data for CSV export
 $data = [
     [$domain, $summary, implode('; ', $extracted_data), date('Y-m-d H:i:s')]
+
+
+## 🚀 Setup and Installation Instructions
+**Step-by-Step Guide:**
+(1.), **Clone the repository:**
+-git clone https://github.com/your-username/web-scraper-automation-suite-
+Install required dependencies: If you're using PHP with cURL and OpenAI API integration, make sure all necessary PHP extensions are installed. You might also need composer for dependency management.
+
+(2.), **Set up your API keys:**
+
+For OpenAI, obtain your API key from OpenAI's website.
+
+Add your API key in config/openai_config.php.
+
+(3.), **Run the script:**
+-php index.php-
+
+🔧 Troubleshooting Tips
+API Authentication Issues:
+
+Make sure your OpenAI API key is correctly set in config/openai_config.php.
+
+Ensure the credentials file is in the correct location.
+
+Google Sheets Update Error (if applicable):
+
+Verify that the sheet name and structure are correct.
+
+Ensure that the Google Sheets API is set up and the sheet is shared with your API credentials.
+
+cURL Errors:
+
+If you encounter issues with the scraping, make sure cURL is enabled in your PHP setup.
+
+Check for any connectivity issues with the website you are trying to scrape.
+
+🤝 Contribution Guidelines
+We welcome contributions to the Web Scraper and Automation Suite! Here’s how you can contribute:
+
+Fork the repository:
+Click the "Fork" button on the GitHub page to create a personal copy of the project.
+
+Create a new branch:
+Work on a new feature or fix in a separate branch.
+
+bash
+Copy
+git checkout -b feature/your-feature
+Commit your changes:
+Write clear and concise commit messages.
+
+bash
+Copy
+git commit -am "Add new feature"
+Push to your fork:
+Push your changes to your fork on GitHub.
+
+bash
+Copy
+git push origin feature/your-feature
+Submit a pull request:
+Go to the "Pull Requests" section and submit your changes for review.
+
+🏷️ Tags
+Web Scraping
+
+PHP
+
+Automation
+
+API Integration
+
+OpenAI
+
+CSV Generation
+
+Data Processing
+
+E-commerce Automation
+
+Scraping Tool
+
+Productivity Tools
+
+
 ];
 
 // Generate the CSV file
