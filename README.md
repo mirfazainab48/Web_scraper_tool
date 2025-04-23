@@ -60,7 +60,7 @@ To run the project, you’ll need the following:
 
 1. **Clone the repository:**
 
-   git clone '''https://github.com/your-username/web-scraper-automation-suite'''
+   ```git clone https://github.com/your-username/web-scraper-automation-suite```
 
 2. **Install required dependencies:**
 
