@@ -70,18 +70,18 @@ If you're using PHP with cURL and OpenAI API integration, make sure all necessar
 
 * For OpenAI, obtain your API key from OpenAI's website.
 
-* Add your API key in *config/openai_config.php*
+* Add your API key in ```config/openai_config.php```
   
 4. **Run the script:**
   
-      *php index.php*
+      ```php index.php```
 
 ---
 
 ## 🔧 Troubleshooting Tips
 **API Authentication Issues:**
 
-* Make sure your OpenAI API key is correctly set in *config/openai_config.php*
+* Make sure your OpenAI API key is correctly set in ```config/openai_config.php```
 
 * Ensure the credentials file is in the correct location.
 
@@ -109,18 +109,18 @@ Click the "Fork" button on the GitHub page to create a personal copy of the proj
 2. Create a new branch:
 Work on a new feature or fix in a separate branch.
 
-*git checkout -b feature/your-feature*
+```git checkout -b feature/your-feature```
 
 3. Commit your changes:
    
 Write clear and concise commit messages.
 
-*git commit -am "Add new feature"*
+```git commit -am "Add new feature"```
 
 4. Push to your fork:
 Push your changes to your fork on GitHub.
 
-*git push origin feature/your-feature*
+```git push origin feature/your-feature```
 
 5. Submit a pull request:
    
