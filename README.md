@@ -50,6 +50,44 @@ To run the project, you’ll need the following:
 - **Google Sheets API**: (Optional) If you're storing or processing the data into Google Sheets.
 
 ---
+## 💡 Usage Examples
+
+Here’s a simple example of how to use the **Web Scraper and Automation Suite** with OpenAI integration:
+
+```php
+// Include necessary files
+include('config/config.php');
+include('config/openai_config.php');
+include('scraper/scraper.php');
+include('scraper/utils.php');
+include('openai/openai_api.php');
+include('csv/csv_generator.php');
+
+// Set the domain URL to scrape
+$domain = 'https://example.com';
+
+// Scrape the website
+$html_content = scrape_website($domain);
+
+// Extract data from the HTML
+$extracted_data = extract_data_from_html($html_content);
+
+// Generate a summary using OpenAI API
+$summary = call_openai_api($extracted_data);
+
+// Prepare data for CSV export
+$data = [
+    [$domain, $summary, implode('; ', $extracted_data), date('Y-m-d H:i:s')]
+];
+
+
+// Generate the CSV file
+$csv_filename = 'website_summary_' . date('Y-m-d_H-i-s') . '.csv';
+generate_csv($data, $csv_filename);
+
+[echo "Process completed. CSV file created: " . $csv_filename;
+```
+
 
 
 ---
