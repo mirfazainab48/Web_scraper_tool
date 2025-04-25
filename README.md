@@ -178,14 +178,12 @@ $summary = call_openai_api($extracted_data);
 // Prepare data for CSV export
 $data = [
     [$domain, $summary, implode('; ', $extracted_data), date('Y-m-d H:i:s')]
-];```
+];
 
-
-**EXAMPLE USAGE**
 
 // Generate the CSV file
 $csv_filename = 'website_summary_' . date('Y-m-d_H-i-s') . '.csv';
 generate_csv($data, $csv_filename);
 
-[echo "Process completed. CSV file created: " . $csv_filename;
+[echo "Process completed. CSV file created: " . $csv_filename;```
 
