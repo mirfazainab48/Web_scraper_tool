@@ -9,11 +9,12 @@
 2. [Features](#features)
    - [To-Do Features](#to-do-features)
 3. [Requirements](#requirements)
-4. [Setup and Installation Instructions](#setup-and-installation-instructions)
-5. [Troubleshooting Tips](#troubleshooting-tips)
-6. [Contribution Guidelines](#contribution-guidelines)
-7. [Tags](#tags)
-8. [Usage Examples](#usage-examples)
+4.  [Usage Examples](#usage-examples)
+5. [Setup and Installation Instructions](#setup-and-installation-instructions)
+6. [Troubleshooting Tips](#troubleshooting-tips)
+7. [Contribution Guidelines](#contribution-guidelines)
+
+  
     
     
 
