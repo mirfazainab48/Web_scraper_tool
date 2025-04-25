@@ -185,5 +185,6 @@ $data = [
 $csv_filename = 'website_summary_' . date('Y-m-d_H-i-s') . '.csv';
 generate_csv($data, $csv_filename);
 
-[echo "Process completed. CSV file created: " . $csv_filename;```
+[echo "Process completed. CSV file created: " . $csv_filename;
+```
 
